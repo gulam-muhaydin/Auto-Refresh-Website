@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Refresh with User Link</title>
+    <link rel="stylesheet" href="./Auto Refresh Website.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Auto Refresh Website</h1>
+        <p>Enter a website URL and select how long it should refresh automatically:</p>
+        <input type="text" id="url-input" placeholder="https://example.com">
+        
+        <label for="refresh-interval">Refresh Interval (seconds):</label>
+        <select id="refresh-interval">
+            <option value="1">1 second</option>
+            <option value="5">5 seconds</option>
+            <option value="10">10 seconds</option>
+            <option value="15">15 seconds</option>
+            <option value="30">30 seconds</option>
+        </select>
+
+        <h3>Duration for Refresh:</h3>
+        <label for="hours-input">Hours:</label>
+        <input type="number" id="hours-input" min="0" value="0">
+        <label for="minutes-input">Minutes:</label>
+        <input type="number" id="minutes-input" min="0" value="0">
+        <label for="seconds-input">Seconds:</label>
+        <input type="number" id="seconds-input" min="0" value="0">
+
+        <button id="start-button">Start Auto Refresh</button>
+        <p>Current URL: <span id="url-display">None</span></p>
+        <iframe id="website-frame" src="" width="800" height="600" style="display:none;"></iframe>
+    </div>
+    <script src="./Auto Refresh Website.js"></script>
+</body>
+</html>

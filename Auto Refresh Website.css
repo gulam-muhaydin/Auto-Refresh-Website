@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0; /* Remove default margin */
+}
+
+.container {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #555;
+}
+
+input[type="text"],
+input[type="number"] {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px; /* Set a fixed width */
+}
+
+select {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 120px; /* Set a fixed width for the select box */
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+#url-display {
+    font-weight: bold;
+    color: #007bff; /* Bootstrap primary color */
+}
+
+iframe {
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+}
